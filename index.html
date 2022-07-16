@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POPUP BOX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-success mt-5" id="clickMe">CLICK ME</button>
+    </div>
+    <div id="signup_box" class="mt-4 shadow-sm">
+        <button id="cancel_button"><i class="bi bi-x-circle"></i></button>
+        <form>
+            <div class="mb-3">
+              <label for="inputEmail">Email address</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="mb-3 ">
+              <label for="inputPassword" >Password</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
